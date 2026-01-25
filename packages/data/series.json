@@ -1,0 +1,348 @@
+{
+    "seriesInfo": {
+        "title": "Courage the Cowardly Dog",
+        "description": "A timid dog protects his owners from paranormal and surreal threats in the middle of Nowhere.",
+        "coverImage": "packages/images/courage_cover.png"
+    },
+    "seasons": [
+        {
+            "id": 1,
+            "name": "Season 1",
+            "episodes": [
+                {
+                    "id": 1,
+                    "title": "A Night at the Katz Motel",
+                    "duration": "11m",
+                    "date": "Nov 12, 1999",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E01.mkv"
+                },
+                {
+                    "id": 2,
+                    "title": "The Shadow of Courage",
+                    "duration": "11m",
+                    "date": "Nov 19, 1999",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E02.mkv"
+                },
+                {
+                    "id": 3,
+                    "title": "Courage Meets Bigfoot",
+                    "duration": "11m",
+                    "date": "Nov 26, 1999",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E03.mkv"
+                },
+                {
+                    "id": 4,
+                    "title": "The Demon in the Mattress",
+                    "duration": "11m",
+                    "date": "Dec 3, 1999",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E04.mkv"
+                },
+                {
+                    "id": 5,
+                    "title": "Night of the Weremole",
+                    "duration": "11m",
+                    "date": "Dec 17, 1999",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E05.mkv"
+                },
+                {
+                    "id": 6,
+                    "title": "The Duck Brothers",
+                    "duration": "11m",
+                    "date": "Dec 10, 1999",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E06.mkv"
+                },
+                {
+                    "id": 7,
+                    "title": "King Ramses' Curse",
+                    "duration": "11m",
+                    "date": "Jan 7, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E07.mkv"
+                },
+                {
+                    "id": 8,
+                    "title": "The Hunchback of Nowhere",
+                    "duration": "11m",
+                    "date": "Jan 14, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E08.mkv"
+                },
+                {
+                    "id": 9,
+                    "title": "Queen of the Black Puddle",
+                    "duration": "11m",
+                    "date": "Jan 21, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E09.mkv"
+                },
+                {
+                    "id": 10,
+                    "title": "The Snowman Cometh",
+                    "duration": "11m",
+                    "date": "Jan 28, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E10.mkv"
+                },
+                {
+                    "id": 11,
+                    "title": "Heads of Beef",
+                    "duration": "11m",
+                    "date": "Feb 18, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E11.mkv"
+                },
+                {
+                    "id": 12,
+                    "title": "The Revenge of the Chicken from Outer Space",
+                    "duration": "11m",
+                    "date": "Jun 9, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E12.mkv"
+                },
+                {
+                    "id": 13,
+                    "title": "Little Muriel",
+                    "duration": "11m",
+                    "date": "Jul 14, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+1/Courage+The+Cowardly+Dog+S01E13.mkv"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Season 2",
+            "episodes": [
+                {
+                    "id": 1,
+                    "title": "The Magic Tree of Nowhere",
+                    "duration": "11m",
+                    "date": "Oct 31, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E01+1080p.mkv"
+                },
+                {
+                    "id": 2,
+                    "title": "The Curse of Shirley",
+                    "duration": "11m",
+                    "date": "Dec 8, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E02+1080p.mkv"
+                },
+                {
+                    "id": 3,
+                    "title": "Family Business",
+                    "duration": "11m",
+                    "date": "Dec 29, 2000",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E03+1080p.mkv"
+                },
+                {
+                    "id": 4,
+                    "title": "Courage Meets the Mummy",
+                    "duration": "11m",
+                    "date": "Jan 19, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E04+1080p.mkv"
+                },
+                {
+                    "id": 5,
+                    "title": "Human Habitrail",
+                    "duration": "11m",
+                    "date": "Feb 16, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E05+1080p.mkv"
+                },
+                {
+                    "id": 6,
+                    "title": "Courage the Fly",
+                    "duration": "11m",
+                    "date": "Mar 16, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E06+1080p.mkv"
+                },
+                {
+                    "id": 7,
+                    "title": "Nowhere TV",
+                    "duration": "11m",
+                    "date": "Apr 13, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E07+1080p.mkv"
+                },
+                {
+                    "id": 8,
+                    "title": "Bad Hair Day",
+                    "duration": "11m",
+                    "date": "May 18, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E08+1080p.mkv"
+                },
+                {
+                    "id": 9,
+                    "title": "Serpent of Evil River",
+                    "duration": "11m",
+                    "date": "Jun 1, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E09+1080p.mkv"
+                },
+                {
+                    "id": 10,
+                    "title": "Car Broke, Phone Yes",
+                    "duration": "11m",
+                    "date": "Oct 26, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E10+1080p.mkv"
+                },
+                {
+                    "id": 11,
+                    "title": "Evil Weevil",
+                    "duration": "11m",
+                    "date": "Nov 2, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E11+1080p.mkv"
+                },
+                {
+                    "id": 12,
+                    "title": "The House of Discontent",
+                    "duration": "11m",
+                    "date": "Nov 9, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E12+1080p.mkv"
+                },
+                {
+                    "id": 13,
+                    "title": "The Tower of Dr. Zalost",
+                    "duration": "22m",
+                    "date": "Nov 16, 2001",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+2/Courage+The+Cowardly+Dog+S02E13+1080p.mkv"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Season 3",
+            "episodes": [
+                {
+                    "id": 1,
+                    "title": "Muriel Meets Her Match",
+                    "duration": "11m",
+                    "date": "Jan 11, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+3/Courage+The+Cowardly+Dog+S03E01+1080p.mkv"
+                },
+                {
+                    "id": 2,
+                    "title": "Campsite of Terror",
+                    "duration": "11m",
+                    "date": "Feb 8, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+3/Courage+The+Cowardly+Dog+S03E02+1080p.mkv"
+                },
+                {
+                    "id": 3,
+                    "title": "Stormy Weather",
+                    "duration": "11m",
+                    "date": "Mar 15, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+3/Courage+The+Cowardly+Dog+S03E03+1080p.mkv"
+                },
+                {
+                    "id": 5,
+                    "title": "Scuba Scuba Doo",
+                    "duration": "11m",
+                    "date": "Jun 14, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+3/Courage+The+Cowardly+Dog+S03E05+1080p.mkv"
+                },
+                {
+                    "id": 6,
+                    "title": "Katz Under the Sea",
+                    "duration": "11m",
+                    "date": "Jun 21, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+3/Courage+The+Cowardly+Dog+S03E06+1080p.mkv"
+                },
+                {
+                    "id": 7,
+                    "title": "Feast of the Bullfrogs",
+                    "duration": "11m",
+                    "date": "Jun 28, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+3/Courage+The+Cowardly+Dog+S03E07+1080p.mkv"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Season 4",
+            "episodes": [
+                {
+                    "id": 1,
+                    "title": "A Beaver's Tale",
+                    "duration": "11m",
+                    "date": "Sep 6, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E01+1080p.mkv"
+                },
+                {
+                    "id": 2,
+                    "title": "Rumpledkiltskin",
+                    "duration": "11m",
+                    "date": "Sep 13, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E02+1080p.mkv"
+                },
+                {
+                    "id": 3,
+                    "title": "Le Quack Balloon",
+                    "duration": "11m",
+                    "date": "Sep 20, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E03+1080p.mkv"
+                },
+                {
+                    "id": 4,
+                    "title": "The Uncommon Cold",
+                    "duration": "11m",
+                    "date": "Sep 27, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E04+1080p.mkv"
+                },
+                {
+                    "id": 5,
+                    "title": "Bride of Swamp Monster",
+                    "duration": "11m",
+                    "date": "Oct 4, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E05+1080p.mkv"
+                },
+                {
+                    "id": 6,
+                    "title": "Muriel Blows Up",
+                    "duration": "11m",
+                    "date": "Oct 11, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E06+1080p.mkv"
+                },
+                {
+                    "id": 7,
+                    "title": "The Mask",
+                    "duration": "22m",
+                    "date": "Oct 18, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E07+1080p.mkv"
+                },
+                {
+                    "id": 8,
+                    "title": "Squatting Tiger, Hidden Dog",
+                    "duration": "11m",
+                    "date": "Oct 25, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E08+1080p.mkv"
+                },
+                {
+                    "id": 9,
+                    "title": "Aqua-Farmer",
+                    "duration": "11m",
+                    "date": "Oct 25, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E09+1080p.mkv"
+                },
+                {
+                    "id": 10,
+                    "title": "Last of the Starmakers",
+                    "duration": "11m",
+                    "date": "Nov 1, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E10+1080p.mkv"
+                },
+                {
+                    "id": 11,
+                    "title": "Courageous Cure",
+                    "duration": "11m",
+                    "date": "Nov 8, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E11+1080p.mkv"
+                },
+                {
+                    "id": 12,
+                    "title": "Cabaret Courage",
+                    "duration": "11m",
+                    "date": "Nov 15, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E12+1080p.mkv"
+                },
+                {
+                    "id": 13,
+                    "title": "Remembrance of Courage Past",
+                    "duration": "11m",
+                    "date": "Nov 22, 2002",
+                    "downloadLink": "https://dev-cartoon-test.s3.ap-south-2.amazonaws.com/Courage+The+Cowardly+Dog/Season+4/Courage+The+Cowardly+Dog+S04E13+1080p.mkv"
+                }
+            ]
+        }
+    ]
+}

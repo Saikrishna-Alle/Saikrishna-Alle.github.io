@@ -1,0 +1,568 @@
+/* Cartoon Page Specific Styles - 3D Claymorphism & Love Theme */
+
+:root {
+    /* 3D Love Palette (No Heart Symbols Theme) */
+    --love-primary: #FF85A1;
+    /* Soft Romantic Pink */
+    --love-secondary: #FFD4DB;
+    /* Light Blush */
+    --love-accent: #B392AC;
+    /* Soft Muted Purple */
+    --love-text: #6D5B6E;
+    /* Warm Grey/Brown */
+    --love-bg: #F7F5FA;
+    /* Very light lavender tint */
+
+    /* Claymorphism Shadows */
+    --clay-shadow:
+        8px 8px 16px rgba(179, 146, 172, 0.2),
+        -8px -8px 16px rgba(255, 255, 255, 0.8);
+    --clay-shadow-inset:
+        inset 6px 6px 12px rgba(179, 146, 172, 0.1),
+        inset -6px -6px 12px rgba(255, 255, 255, 0.9);
+    --clay-radius: 2rem;
+}
+
+body {
+    background-color: var(--love-bg);
+    color: var(--love-text);
+}
+
+/* Hero Section */
+.cartoon__home {
+    background: linear-gradient(135deg, #FFF0F3 0%, #E0BBE4 100%);
+    border-radius: 0 0 3rem 3rem;
+    padding-bottom: 5rem;
+    padding-top: 7rem;
+    /* Adjusted for fixed header layout if needed */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Floating Background Elements (Abstract 3D shapes) */
+.cartoon__home::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: var(--love-secondary);
+    border-radius: 50%;
+    filter: blur(40px);
+    opacity: 0.6;
+    animation: floatBubble 10s infinite alternate;
+}
+
+.cartoon__home::after {
+    content: '';
+    position: absolute;
+    bottom: 50px;
+    left: -50px;
+    width: 150px;
+    height: 150px;
+    background: var(--love-primary);
+    border-radius: 50%;
+    filter: blur(50px);
+    opacity: 0.4;
+    animation: floatBubble 8s infinite alternate-reverse;
+}
+
+@keyframes floatBubble {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    100% {
+        transform: translate(30px, 30px) scale(1.1);
+    }
+}
+
+.cartoon__container {
+    gap: 3rem;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.cartoon__title {
+    font-size: 3.5rem;
+    margin-bottom: var(--mb-1);
+    color: var(--love-text);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.cartoon__description {
+    margin-bottom: var(--mb-2);
+    font-size: var(--h3-font-size);
+    color: var(--love-text);
+    opacity: 0.8;
+}
+
+/* 3D Image Wrapper */
+.cartoon__img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 100%;
+    max-width: 320px;
+    background: var(--love-bg);
+    border-radius: var(--clay-radius);
+    box-shadow: var(--clay-shadow);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    position: relative;
+    margin: 0 auto;
+}
+
+.cartoon__icon-large {
+    font-size: 6rem;
+    color: var(--love-primary);
+    animation: bounce3D 3s ease-in-out infinite;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes bounce3D {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-20px) scale(1.05);
+    }
+}
+
+/* Season Selector (3D Dropdown) */
+.season__selector-wrapper {
+    position: relative;
+    width: 220px;
+    margin: 2rem auto var(--mb-2-5);
+    z-index: 20;
+}
+
+.season__selector {
+    background-color: var(--love-bg);
+    padding: 1.25rem 2rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: var(--clay-shadow);
+    transition: all 0.3s ease;
+    color: var(--love-text);
+    font-weight: 600;
+}
+
+.season__selector:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        10px 10px 20px rgba(179, 146, 172, 0.25),
+        -10px -10px 20px rgba(255, 255, 255, 0.9);
+}
+
+.season__selector:active {
+    box-shadow: var(--clay-shadow-inset);
+    transform: translateY(1px);
+}
+
+.season__icon {
+    font-size: 1.25rem;
+    color: var(--love-primary);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.season__selector.open .season__icon {
+    transform: rotate(180deg);
+}
+
+.season__options {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    background-color: var(--love-bg);
+    border-radius: 1.5rem;
+    box-shadow: var(--clay-shadow);
+    padding: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px) scale(0.9);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.season__options.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.season__option {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    color: var(--love-text);
+    transition: 0.3s;
+    border-radius: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.season__option:hover {
+    background-color: var(--love-secondary);
+    color: #fff;
+    box-shadow: var(--clay-shadow-inset);
+}
+
+.season__option.active {
+    background-color: var(--love-primary);
+    color: #fff;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Episodes Grid - Claymorphism Cards */
+.episodes__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.episode__card {
+    background-color: var(--love-bg);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: var(--clay-shadow);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.episode__card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        12px 12px 24px rgba(179, 146, 172, 0.25),
+        -12px -12px 24px rgba(255, 255, 255, 0.95);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* 3D Pill for Episode Number */
+.episode__number {
+    font-size: var(--small-font-size);
+    color: #fff;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--love-primary), #FFB7B2);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.episode__title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: var(--love-text);
+    font-weight: 700;
+}
+
+.episode__meta {
+    font-size: 0.9rem;
+    color: var(--love-accent);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Download Button - 3D Circle */
+.episode__download-btn {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    background: var(--love-bg);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: var(--love-primary);
+    box-shadow: var(--clay-shadow);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.episode__download-btn:hover {
+    color: #fff;
+    background: var(--love-primary);
+    transform: scale(1.1);
+    box-shadow:
+        5px 5px 10px rgba(179, 146, 172, 0.3),
+        -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+
+.episode__download-btn:active {
+    box-shadow: var(--clay-shadow-inset);
+    transform: scale(0.95);
+}
+
+/* Blink Animation (Romance without Hearts) */
+.episode__download-btn.animating {
+    animation: romanticBlink 0.8s ease-in-out forwards;
+}
+
+@keyframes romanticBlink {
+    0% {
+        transform: scale(1);
+        color: var(--love-primary);
+    }
+
+    30% {
+        transform: scale(0.1);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: scale(1.2);
+        color: #FF4081;
+        box-shadow: 0 0 15px var(--love-secondary);
+    }
+
+    70% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+        color: var(--love-primary);
+    }
+}
+
+/* Download Section (Global) */
+.download {
+    margin-top: 4rem;
+}
+
+.download__container {
+    text-align: center;
+    background: var(--love-bg);
+    padding: 3rem 2rem;
+    border-radius: 3rem;
+    box-shadow: var(--clay-shadow);
+}
+
+.download__title {
+    font-size: 2rem;
+    color: var(--love-text);
+    margin-bottom: 1rem;
+}
+
+.download__btn {
+    margin-top: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 70px;
+    background: var(--love-bg);
+    color: var(--love-primary);
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: var(--clay-shadow);
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.download__btn:hover {
+    transform: translateY(-4px);
+    color: #fff;
+    background: linear-gradient(135deg, var(--love-primary), #FF9EAA);
+    box-shadow:
+        8px 8px 20px rgba(255, 133, 161, 0.3),
+        -8px -8px 20px rgba(255, 255, 255, 0.9);
+}
+
+.download__btn:active {
+    box-shadow: var(--clay-shadow-inset);
+    transform: translateY(2px);
+}
+
+.download__msg {
+    margin-top: 1rem;
+    color: var(--love-primary);
+    font-weight: 600;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .cartoon__title {
+        font-size: 2.5rem;
+    }
+
+    .episodes__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Download Popup (Modal-like) */
+.download-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 3px solid var(--love-primary);
+}
+
+.download-popup.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup__icon {
+    font-size: 3rem;
+    color: var(--love-primary);
+    margin-bottom: 1rem;
+    display: block;
+    animation: popupIconBounce 1s infinite;
+}
+
+@keyframes popupIconBounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.popup__text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--love-text);
+}
+
+.popup__subtext {
+    font-size: 0.9rem;
+    color: var(--love-accent);
+    margin-top: 0.5rem;
+}
+
+/* --- DARK MODE THEME --- */
+
+
+
+/* Cover Image Styles */
+.cartoon__cover-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    transition: transform 0.3s;
+}
+
+.cartoon__cover-img:hover {
+    transform: scale(1.05);
+}
+
+
+/* --- HERO SECTION LAYOUT FIXES --- */
+
+/* Fix Image Cropping */
+.cartoon__cover-img {
+    object-fit: contain !important;
+    /* Force complete image visibility */
+    background-color: var(--love-bg);
+    /* Match bg to avoid ugly borders if ratio differs */
+}
+
+/* Desktop View: Side-by-Side */
+@media screen and (min-width: 768px) {
+    .cartoon__container {
+        grid-template-columns: 1fr 1fr;
+        /* Text Left, Image Right */
+        text-align: left;
+        /* Align text to left */
+        justify-content: space-between;
+    }
+
+    .cartoon__content {
+        text-align: left;
+        padding-right: 2rem;
+    }
+
+    .cartoon__img-wrapper {
+        margin: 0;
+        /* Remove auto margin to align properly if needed, or keep to center in its column */
+        height: 400px;
+        /* Larger image on desktop */
+        max-width: 100%;
+        width: auto;
+        aspect-ratio: 1/1;
+        /* Keep square-ish 3D look */
+    }
+
+    .cartoon__title {
+        font-size: 4rem;
+    }
+}
+
+
+/* --- FIX: REMOVE WHITESPACE FROM SQUARE CONTAINER --- */
+/* Reset wrapper to fit the image natural size */
+@media screen and (min-width: 768px) {
+    .cartoon__img-wrapper {
+        height: auto !important;
+        /* Let image define height */
+        aspect-ratio: auto !important;
+        width: fit-content !important;
+        max-width: 450px !important;
+        /* Cap width but keep natural ratio */
+        display: block;
+        /* Remove flex centering if it causes issues, or keep flex */
+        margin-left: auto !important;
+        /* Align to right in its grid col */
+        margin-right: 0 !important;
+        background: transparent !important;
+        /* No background color showing through */
+    }
+
+    .cartoon__cover-img {
+        width: 100% !important;
+        height: auto !important;
+        /* Maintain intrinsic aspect ratio */
+        object-fit: cover !important;
+        /* Cover the wrapper (which is now same size as img) */
+        display: block;
+    }
+}
+
+/* Ensure mobile also doesn't force huge square if not needed */
+.cartoon__img-wrapper {
+    height: auto !important;
+    min-height: 200px;
+    /* Min height only */
+    aspect-ratio: auto !important;
+}

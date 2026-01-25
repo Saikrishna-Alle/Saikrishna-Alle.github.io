@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./packages/images/favicon.png" type="image/png">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./packages/css/styles.css">
+    <link rel="stylesheet" href="./packages/css/cartoon.css">
+
+    <title>Cartoon Series - Saikrishna Alle</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">SAI KRISHNA ALLE</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="index.html#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="cartoon.html" class="nav__link active-link">
+                            <i class="uil uil-tv-retro nav__icon"></i>Series
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME / HERO ====================-->
+        <section class="cartoon__home section" id="home">
+            <div class="cartoon__container container grid">
+                <div class="cartoon__content">
+                    <h1 class="cartoon__title" id="hero-title">The Ultimate <br> Cartoon Collection</h1>
+                    <p class="cartoon__description" id="hero-desc">Dive into the world of animation. Stream, watch, and
+                        download your favorite seasons in high quality.</p>
+                </div>
+                <!-- You can use generate_image to create a placeholder or just use a div -->
+                <div class="cartoon__img-wrapper">
+                    <i class="uil uil-play-circle cartoon__icon-large"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SEASONS & EPISODES ====================-->
+        <section class="episodes section" id="episodes">
+            <h2 class="section__title">Watch Now</h2>
+            <span class="section__subtitle">Select a Season</span>
+
+            <div class="episodes__container container">
+                <!-- Season Dropdown -->
+                <div class="season__selector-wrapper">
+                    <div class="season__selector" id="season-selector">
+                        <span class="season__current" id="current-season">Season 1</span>
+                        <i class="uil uil-angle-down season__icon"></i>
+                    </div>
+                    <ul class="season__options" id="season-options">
+                        <li class="season__option active" data-season="1">Season 1</li>
+                        <li class="season__option" data-season="2">Season 2</li>
+                        <li class="season__option" data-season="3">Season 3</li>
+                        <li class="season__option" data-season="4">Season 4</li>
+                    </ul>
+                </div>
+
+                <!-- Episodes Grid -->
+                <div class="episodes__grid grid" id="episodes-list">
+                    <!-- Episodes will be injected here via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!--==================== DOWNLOAD ====================-->
+        <section class="download section">
+            <div class="download__container container">
+                <div class="download__content">
+                    <h2 class="download__title">Download Content</h2>
+                    <p class="download__description">Get the entire collection for offline viewing. High speed, no ads.
+                    </p>
+
+                    <button class="button button--flex download__btn" id="download-btn">
+                        <span class="download__text">Download All</span>
+                        <i class="uil uil-cloud-download download__icon_btn"></i>
+                        <span class="download__progress"></span>
+                    </button>
+                    <div class="download__message" id="download-message"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+    <script src="./packages/js/cartoon.js"></script>
+</body>
+
+</html>
